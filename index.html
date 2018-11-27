@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- адаптивная верстка -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="app/css/main.css">
+    <title>Children Parties</title>
+  </head>
+  <body>
+<div id="tailCoursor"></div>
+<!-- <div class="ease"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div> -->
+<!-- <svg width="35" height="35">
+  <path class='heart' d='M31.881 12.557c-.277-.799-.988-1.384-1.844-1.511l-8.326-1.238-3.619-7.514c-.381-.789-1.196-1.294-2.092-1.294s-1.711.505-2.092 1.294l-3.619 7.514-8.327 1.238c-.855.127-1.566.712-1.842 1.511-.275.801-.067 1.683.537 2.285l6.102 6.092-1.415 8.451c-.144.851.225 1.705.948 2.203.397.273.864.412 1.331.412.384 0 .769-.094 1.118-.281l7.259-3.908 7.26 3.908c.349.187.734.281 1.117.281.467 0 .934-.139 1.332-.412.723-.498 1.09-1.352.947-2.203l-1.416-8.451 6.104-6.092c.603-.603.81-1.485.537-2.285zm-8.293 6.806c-.512.51-.744 1.229-.627 1.934l1.416 8.451-7.26-3.906c-.348-.188-.732-.281-1.118-.281-.384 0-.769.094-1.117.281l-7.26 3.906 1.416-8.451c.118-.705-.114-1.424-.626-1.934l-6.102-6.092 8.326-1.24c.761-.113 1.416-.589 1.743-1.268l3.621-7.512 3.62 7.513c.328.679.982 1.154 1.742 1.268l8.328 1.24-6.102 6.091z' id='c'/>
+</svg> -->
+<!-- -Header Menu------------------------------------------->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand logo" href="index.html">Children Parties</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Программы<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Услуги
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">День Рождение</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Мастер Классы</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Декор интерьера</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Фотоссесия</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Акции</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Контакты</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="LogIn.html">Log&nbspIn</a>
+      </li>
+    </ul>
+  </div>
+  <li class="nav-item no-wrap">
+    <a class="nav-link" href="#">8(063)898-02-55</a>
+    <a class="nav-link" href="#">8(093)898-02-55</a>
+  </li>
+</nav>
+
+
+<!-- -Carusel------------------------------------------->
+<div class="container-fluid">
+  <div class="row align-items-center justify-content-center no-gutter">
+    <div class="col-9">
+        <div id="carouselMain" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./app/img/carusel_1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h2>Header 1</h2>
+              <p>Description Description Description 1</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./app/img/carusel_2.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h2>Header 1</h2>
+              <p>Description Description Description 1</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./app/img/carusel_3.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h2>Header 1</h2>
+              <p>Description Description Description 1</p>
+            </div>
+          </div>
+        </div>
+          <a class="carousel-control-prev" href="#carouselMain" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Предыдущий</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselMain" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Следующий</span>
+          </a>
+        </div>
+      </div>
+
+</div>
+</div>
+
+
+<!-- -Filter------------------------------------------->
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-light p-4">
+      <form class="form-inline">
+
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelectPref">
+          <option selected>Выбрать услугу...</option>
+          <option value="1">Аниматоры</option>
+          <option value="2">Мастер классы</option>
+          <option value="3">Декор интерьера</option>
+          <option value="3">Фотоссесия</option>
+          <option value="1">Комплекс программ</option>
+        </select>
+
+        <input type="number" class="form-control mr-sm-2" pattern="^[ 0-9]+$" placeholder="Возраст счасливца">
+        <input class="form-control mr-2 col" type="search" placeholder="Поиск по слову" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-0" type="submit">Применить</button>
+      </form>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="">Фильтр</span>
+    </button>
+  </nav>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12">
+        <h2 class="text-center">Аниматоры</h2>
+      </div>
+  </div>
+
+
+  <div class="row">
+      <div class="card-columns" id="templateCardsResult">
+      <!--  <div class="col-lg-4 col col-sm-4">
+          <div class="card shadow-sm border-0">
+            <img class="card-img-top" src="./img/card_kids_dinner_1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col col-sm-4">
+          <div class="card">
+           <div class="img-vertical"><img class="card-img-top" src="./img/card_animator_1.jpg" alt="Card image cap"></div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col col-sm-4">
+          <div class="card">
+            <div class="img-vertical"><img class="card-img-top" src="./img/card_animator_2.jpg" alt="Card image cap"></div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="./img/card_kids_dinner_1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="./img/card_animator_1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <nav aria-label="...">
+        <ul class="pagination pagination-lg">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">1</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<!--  <script id="templateCards" type="text/template">
+  <%  _.each(services, function(card) { %>
+    <div class="col-lg-4 col col-sm-4">
+    <div class="card">
+      <img class="card-img-top" src="<%=card.img%>" alt="<%=card.name%>">
+      <div class="card-body">
+        <h5 class="card-title"><%=card.name%></h5>
+        <p class="card-text"><%=card.description%></p>
+        <a href="#" class="btn btn-primary">Подробнее</a>
+        <% console.log("card.name="+card.name); %>
+      </div>
+    </div>
+    </div>
+  <% }) %>
+  </script>
+-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Include Underscore -->
+    <script src="lib/underscore-min.js"></script>
+    <script src="app/js/main.js"></script>
+  </body>
+</html>

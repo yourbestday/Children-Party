@@ -1,0 +1,60 @@
+@font-face {
+    font-family: ChubbyDotty; /* Имя шрифта */
+    src: url('../fonts/chubby-dotty.ttf') format('truetype'); /* Путь к файлу со шрифтом */
+    font-weight: normal;
+    font-style: normal;
+   }
+body {
+  min-width: 300px;
+  cursor: url('../img/wand.ico'), auto;
+}
+#tailCoursor {
+    width: 24px;
+    height: 24px;
+    background: url('../img/stars.ico') no-repeat;
+    background-size: 24px 24px;
+    margin: 10px 0 0 10px;
+    position: absolute;
+    transition: top 0.5s, left 0.5s;
+    -webkit-transition: top 0.5s, left 0.5s;
+    z-index: 100;
+}
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.filter-header {
+  font-size: 24px;
+}
+.card:hover {
+  /* -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2); */
+}
+
+.card-text {
+  height: 195px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.logo {
+  font-family: ChubbyDotty;
+  font-size: 32px;
+}
+li {
+  list-style: none;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.age {
+  display: inline-block;
+  border: 1px solid gray;
+}
+
+svg {
+  fill: yellow;
+}
+ul.list-custom li{
+  list-style-image: url('../img/check.ico');
+}
