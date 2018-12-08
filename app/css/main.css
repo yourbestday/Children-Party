@@ -29,6 +29,9 @@ body {
 #templateCardsResult {
 
 }
+.card h5 {
+  margin: 25px;
+}
 /* #templateCardsResult .card:hover {
   box-shadow: 0 0 5px rgba(0,0,255,0.5);
 }
@@ -63,17 +66,25 @@ li {
 td .age:not(:last-child):after {
   content: '-';
 }
-svg {
-  fill: yellow;
-}
+
 ul.list-custom li{
   list-style-image: url('../img/check.ico');
 }
-/* .contact {
-  border-radius: 91px 180px 117px 54px;
--moz-border-radius: 91px 180px 117px 54px;
--webkit-border-radius: 91px 180px 117px 54px;
-border: 3px dashed #9230b3;
-background-color: #debade;
-padding: 30px;
-} */
+input[type=checkbox] {
+  width: 20px;
+}
+tr:hover {
+  background-color: rgb(0,0,0,0.1);
+}
+tr.animator {
+  background-color: rgb(56, 172, 236,0.3);
+}
+tr.masterclass {
+  background-color: rgb(153, 198, 142,0.3);
+}
+tr.promotion {
+  background-color: rgb(255, 255, 204,0.3);
+}
+tr.birthday {
+  background-color: rgb(231, 116, 113,0.3);
+}
